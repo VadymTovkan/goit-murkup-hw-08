@@ -1,0 +1,30 @@
+/* цвет основного текста #212121 */
+/* вторичный цвет текста #757575 */
+/* белый цвет #FFFFFF */
+/* акцент #2196F3 */
+/* вторичный цвет фона #F5F4FA */
+
+.section_1_title {
+  color: #fff;
+  background: rgba(47, 48, 58, 0.8);
+}
+.section_1 {
+  color: #fff;
+  background: #2196f3;
+}
+
+.aa {
+  position: relative;
+}
+
+.tech-1 {
+  position: relative;
+}
+.tech-1 ::before {
+  content: "";
+  width: 50px;
+  height: 50px;
+  background-color: rgba(33, 150, 243, 0.9);
+  display: inline-block;
+  position: absolute;
+}
